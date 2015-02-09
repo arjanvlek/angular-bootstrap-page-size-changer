@@ -45,8 +45,17 @@ angular.module('myApp', ['seblucas.slPageSizeChanger'])
 
 ```html
 <h1>Title</h1>
-<pagination total-items="totalItems" items-per-page="itemsPerPage" max-size="maxSize" ng-model="currentPage" ng-change="pageChanged()"></pagination>
-<sl-page-size-changer total-items="totalItems" ng-model="itemsPerPage" ng-change="pageChanged()" items-per-page-list="itemsPerPageList"></sl-page-size-changer>
+<pagination total-items="totalItems" 
+            items-per-page="itemsPerPage" 
+            max-size="maxSize" 
+            ng-model="currentPage" 
+            ng-change="pageChanged()">
+</pagination>
+<sl-page-size-changer total-items="totalItems" 
+                      ng-model="itemsPerPage" 
+                      ng-change="pageChanged()" 
+                      items-per-page-list="itemsPerPageList">
+</sl-page-size-changer>
 <br />
 <div class="row" ng-repeat="item in list">
 {{item.name}}
