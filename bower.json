@@ -5,6 +5,13 @@
   "author": "Sébastien Lucas",
   "description": "Angular bootstrap page size changer",
   "license": "MIT",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    ".jshintrc",
+    "bower.json",
+    "README.md"
+  ],
   "keywords": [
     "angularjs",
     "bootstrap"
