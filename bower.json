@@ -10,6 +10,7 @@
     ".bowerrc",
     ".gitignore",
     ".jshintrc",
+    ".hgtags",
     "bower.json",
     "README.md"
   ],
