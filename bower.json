@@ -1,7 +1,7 @@
 {
   "name": "angular-bootstrap-page-size-changer",
   "main": "./page-size-changer.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "http://github.com/seblucas/angular-bootstrap-page-size-changer",
   "author": "Sébastien Lucas",
   "description": "Angular bootstrap page size changer",
