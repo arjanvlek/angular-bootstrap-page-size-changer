@@ -10,7 +10,7 @@ angular.module('seblucas.slPageSizeChanger', [])
         totalItems: '=',
       },
       template:
-'<ul class="pagination pull-right"> \
+'<ul class="pagination pagination-sm"> \
   <li ng-repeat="itemValue in itemsPerPageList" ng-class="{active: itemsPerPage == itemValue}"><a href="" ng-click="selectItemPerPage(itemValue)">{{itemValue}}</a></li> \
   <li ng-if="totalItems" class="disabled"><a href="">Total : {{totalItems}}</a></li> \
 </ul>',
